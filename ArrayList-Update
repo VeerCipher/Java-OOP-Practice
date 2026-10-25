@@ -1,0 +1,28 @@
+package update.arraylist;
+import java.util.ArrayList;
+
+public class UpdateArrayList 
+{
+    public static void main(String[] args) 
+    {
+        ArrayList <String> Students = new ArrayList <> ();
+        
+            // Adding Elements
+            
+        Students.add("Jalali");
+        Students.add("Junaid");
+        Students.add("Ahsan");
+        Students.add("Ali");
+        Students.add("Hamza");
+       
+        System.out.printf("Orignal List  :  %s \n", Students);
+        
+            // After Updating
+            
+        Students.set(3, "Ahmed");
+        
+        System.out.println("\n == After Updating == \n");
+        System.out.printf("After Updating : %s \n", Students);
+    }
+    
+}
